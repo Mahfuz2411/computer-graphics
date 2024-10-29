@@ -18,7 +18,7 @@ for _ in range(steps):
     y += yinc
     x = round(x, 2)
     y = round(y, 2)
-    data.append([x, y])
+    data.append([round(x), round(y)])
 
 for arr in data:
     print(arr)
